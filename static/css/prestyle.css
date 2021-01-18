@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: -webkit-linear-gradient(rgb(35, 51, 88),rgb(69, 72, 88));
+    width: fit-content;
+}
+.regcontainer{
+
+}
+.rightdown{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin: 20px 70px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.048);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.mytext{
+    width: 300px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 100000px;
+    padding:10px
+}
+.halfie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 20px;
+}
+.leftup{
+    margin: 40px 70px;
+}
+input{
+    margin-bottom: 30px;
+}
+#resumefile{
+    border: 1px solid aliceblue;
+    border-radius: 100000px;
+    padding: 10px;
+    margin: 10px;
+    color: aliceblue;
+}
+option{
+    font-size: 16px;
+    color: black;
+}
+label{
+    margin: 30px 30px 0px 0px;
+    color: aliceblue;
+}
+.radios{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#male,#female,#other,#prefernottosay{
+    margin: 0px 10px;
+    height: 25px;
+    width: 25px;
+}
+h1{
+    font-size: 48px;
+    background: -webkit-linear-gradient(rgba(255, 151, 32, 0.767),rgb(255, 217, 49));
+    -webkit-background-clip: text;
+    background-clip: none;
+    -webkit-text-fill-color: transparent; 
+}
+h3{
+    color: rgb(199, 214, 255);
+    font-size: 14px;
+    font-weight: 300;
+}
+#login{
+    margin: 10px; padding: 5px 20px;
+    background: -webkit-linear-gradient(rgba(255, 174, 53, 0.884),rgba(255, 102, 0, 0.849));
+    border-radius: 100000px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+}
+#create{
+    margin: 10px; padding: 5px 20px;
+    background: -webkit-linear-gradient(rgba(151, 255, 53, 0.884),rgba(24, 216, 40, 0.849));
+    border-radius: 100000px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+}
+#forgotpwd{
+    text-decoration: none;
+    color: rgb(91, 91, 255);
+    font-size: 14;
+}
+
+.centerpanel{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+#topbar{
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    display: flex;
+}
+li{
+    margin: 20px;
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: none;
+}
+li a{
+    color: rgb(199, 214, 255);
+    text-decoration: none;
+}
+
+#jobseekerform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+@media screen and (max-width: 1113px) {
+    body {
+        height: min-content;
+    }
+}
+@media screen and (max-width: 700px) {
+    h1{
+        font-size: 32px;
+    }
+    h3{
+        font-size: 12px;
+    }
+    .rightdown{
+        width: 85%;
+        padding: 15px;
+        margin: 20px;
+        min-width: 300px;
+    }
+    .leftup{
+        margin: 20px;
+    }
+    form{
+        margin: 10px;
+    }
+    .mytext{
+        height: 16px;
+        padding:6px;
+        font-size: 12px;
+    }
+    #login,#create{
+        margin: 10px;
+        padding: 2px 5px;
+        font-size: 10px;
+        min-width: 80px;
+    }
+    #forgotpwd{
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,92 @@
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: 550px}
+    
+/* Set gray background color and 100% height */
+.sidenav {
+  background-color: #303030;
+  height: 100vh;
+  position: fixed;
+}
+h2{
+  color: rgb(238, 238, 238);
+}
+.rightside{
+  margin-left: 16.5vw;
+}
+li a{
+  color: rgb(153, 187, 187);
+}
+.mydash{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.mytext{
+  width: 300px;
+  height: 35px;
+  border: 1px solid black;
+  border-radius: 100000px;
+  padding:10px
+}
+.userimage{
+    height: 300px;
+    width: 300px;
+    background-image: -webkit-linear-gradient(rgb(84, 185, 171),rgb(190, 167, 91));
+    /* put image url there instead */
+    margin: 50px;
+}
+.fiftypxmargin{
+    margin: 15px 80px;
+}
+.horizontal{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+h1{
+    margin: 30px;
+}
+table{
+  margin: 20px 60px;
+}
+td{
+  padding: 15px;
+}
+#postit{
+  margin: 10px 60px;
+  padding: 5px 20px;
+  background-color: #3d3d3d;
+  border-radius: 100000px;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+}
+.well{
+  background-image: -webkit-linear-gradient(rgb(245, 245, 245),rgb(221, 221, 221));
+}
+#well1{
+    background-image: -webkit-linear-gradient(rgb(247, 230, 85),rgb(255, 165, 47));
+}
+#well2{
+    background-image: -webkit-linear-gradient(rgb(91, 243, 235),rgb(66, 126, 255));
+}
+#well3{
+    background-image: -webkit-linear-gradient(rgb(250, 152, 152),rgb(255, 83, 83));
+}
+#well4{
+    background-image: -webkit-linear-gradient(rgb(197, 110, 255),rgb(231, 95, 163));
+}
+
+
+    
+/* On small screens, set height to 'auto' for the grid */
+@media screen and (max-width: 767px) {
+  .row.content {height: auto;} 
+  .rightside {margin-left: 0;}
+}
